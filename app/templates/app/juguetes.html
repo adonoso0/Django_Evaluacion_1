@@ -1,0 +1,62 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}</h2>
+<h3>{{ message }}</h3>
+<br />
+<br />
+
+
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" img style='height: 100%; width: 100%; object-fit: fill' src="/static/imagenes/dinosaurio.png" alt="Card image cap">
+            <div class="card-body">
+                <br />
+                <br />
+                <h4 class="card-title">Rex</h4>
+                <p class="card-text">Rex Dinosaurio Toy Story.</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" img style='height: 100%; width: 100%; object-fit: fill' src="/static/imagenes/jessie.png" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Jessie</h4>
+                <p class="card-text">Jessie Vaquera Toy Story</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" img style='height: 100%; width: 100%; object-fit: inherit' src="/static/imagenes/slinky.png" alt="Card image cap">
+            <div class="card-body">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <h4 class="card-title">Slinky</h4>
+                <p class="card-text">Slinky Perro Toy Story</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+
+{% endblock %}

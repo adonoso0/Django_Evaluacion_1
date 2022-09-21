@@ -1,0 +1,62 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}</h2>
+<h3>{{ message }}</h3>
+
+<br />
+<br />
+
+
+
+
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" img style='height: 100%; width: 100%; object-fit: fill' src="/static/imagenes/jeans.png" alt="Card image cap">
+            <div class="card-body">
+                <br />
+                <br />
+                <h4 class="card-title">Jeans Denim</h4>
+                <p class="card-text">Jeans Denim unisex talla 40</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" img style='height: 100%; width: 100%; object-fit: fill' src="/static/imagenes/sweater.png" alt="Card image cap">
+            <div class="card-body">
+                <br />
+                <br />
+                <br />
+                <br />
+
+                <h4 class="card-title">Sweater Binco</h4>
+                <p class="card-text">Sweater Binco hombre talla 42</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" img style='height: 100%; width: 100%; object-fit: inherit' src="/static/imagenes/chaleco.png" alt="Card image cap">
+            <div class="card-body">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <h4 class="card-title">Chaleco</h4>
+                <p class="card-text">Chaleco hombre para outdoors talla 38</p>
+                <a href="#" class="btn btn-primary">Comprar ahora</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,31 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div style="background-color:#6B9A3B" class="alert alert-info display-1 text-center">
+
+   <h1 style="color:white"><img src="/static/imagenes/djangologo.png" alt="logo" /> Shop</h1> 
+    
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Juguetes</h2>
+        <p>
+            Tenemos una variedad de juguetes en venta
+        </p>
+        <p><a class="btn btn-success" href="{% url 'juguetes' %}">Ver juguetes &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Ropa</h2>
+        <p>Ropa de distintas marcas a precios asequibles</p>
+        <p><a class="btn btn-success" href="{% url 'ropa' %}">Ver ropa &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Usuario</h2>
+        <p>Perfil personal, Panel de Control</p>
+        <p><a class="btn btn-success" href="{% url 'login' %}">Login Usuario &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}
